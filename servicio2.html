@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portal Ágora</title>
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <!-- swiper css link  -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- colocar icono  -->
+    <link rel="icon" href="images/agora_logo.ico" />
+  </head>
+  <body>
+    <!-- header section starts  -->
+
+    <header class="header">
+      <a href="index.html" class="logo"> <img src="images/agora_logo.png" alt="" width="20%"> <span style="color: rgb(75, 134, 98);">Portal</span> <span style="color:cadetblue">Ágora</span> </a>
+
+      <nav class="navbar">
+        <div id="close-navbar" class="fas fa-times"></div>
+        <a href="index.html">Inicio</a>
+        <a href="nosotros.html">acerca de nosotros</a>
+        <a href="#cursos">servicios</a>
+        <a href="contacto.html">contacto</a>
+      </nav>
+
+      <div class="icons">
+        <div id="account-btn" class="fas fa-user"></div>
+        <div id="menu-btn" class="fas fa-bars"></div>
+      </div>
+    </header>
+
+    <!-- account form section starts  -->
+
+    <div class="account-form">
+      <div id="close-form" class="fas fa-times"></div>
+      <div class="buttons">
+        <span class="btn active login-btn">Iniciar</span>
+        <span class="btn register-btn">Registrarse</span>
+      </div>
+
+      <form class="login-form active" action="">
+        <h3>INICIA SESIÓN AHORA</h3>
+        <input type="email" placeholder="enter your email" class="box" />
+        <input type="password" placeholder="enter your password" class="box" />
+        <div class="flex">
+          <input type="checkbox" name="" id="remember-me" />
+          <label for="remember-me">Acuérdate de mí</label>
+          <a href="#">Has olvidado tu contraseña?</a>
+        </div>
+        <input type="submit" value="Iniciar ahora" class="btn" />
+      </form>
+
+      <form class="register-form" action="">
+        <h3>register now</h3>
+        <input type="email" placeholder="enter your email" class="box" />
+        <input type="password" placeholder="enter your password" class="box" />
+        <input
+          type="password"
+          placeholder="confirm your password"
+          class="box"
+        />
+        <input type="submit" value="register now" class="btn" />
+      </form>
+    </div>
+
+    <!-- account form section ends -->
+
+    <!-- header section ends -->
+
+
+
+    
+
+    <!-- servicio 1  -->
+
+    <section class="home">
+
+    </section>
+
+    <!-- servicio 1 ends -->
+
+
+<!-- contact section starts  -->
+<section class="heading-link">
+    <h3>Nuestros servicios</h3>
+    <p> <a href="index.html">Inicio</a> / servicios </p>
+  </section>
+
+<section class="contact">
+
+    <h1 class="heading"> programas de coaching personal </h1>
+ 
+    <div class="row">
+ 
+       <div class="image">
+        <img src="images/course-1-3.png" alt="" />
+       </div>
+ 
+       <form action="">
+          <div class="servicio-1"> 
+          <h3 style="color: rgb(42, 124, 97); font-size: 30px;">Objetivo</h3>
+          <p>Proporcionar sesiones individuales de coaching que ayuden a las personas a identificar metas, superar obstáculos, desarrollar habilidades de autogestión y alcanzar su máximo potencial tanto en el ámbito personal como profesional.</p>
+          <br>
+          <p>Talleres y capacitaciones de coaching: Impartir talleres grupales y capacitaciones en técnicas de coaching, herramientas de desarrollo personal y habilidades de comunicación efectiva para promover el crecimiento y el rendimiento óptimo de los participantes.</p>
+          <br>
+          <p>Evaluación y seguimiento: Realizar evaluaciones y seguimiento del progreso de los participantes en los programas, proporcionando retroalimentación personalizada y ajustando las estrategias según sea necesario para garantizar resultados efectivos.</p>
+          </div>
+        </form>
+ 
+    </div>
+ 
+ </section>
+ 
+ <!-- contact section ends -->
+
+    <!-- home courses slider section starts  -->
+
+    <section class="home-courses" id="cursos">
+        <h1 class="heading">nuestros servicios</h1>
+  
+        <div class="swiper home-courses-slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide slide">
+              <div class="image">
+                <img src="images/course-1-6.png" alt="" />
+                <!--<img src="images/course-1-1.png" alt="" />-->
+                <h3>Gestión Convivencia Escolar</h3>
+              </div>
+              <div class="content">
+                <h3>Gestión Convivencia Escolar</h3>
+                <p>
+                  Desarrollar e implementar programas y estrategias de gestión de la convivencia escolar  que fomenten un ambiente escolar positivo, inclusivo y respetuoso,  promoviendo el bienestar emocional y la prevención del acoso  escolar.
+                </p>
+                <a href="servicio1.html" class="btn">Leer +</a>
+              </div>
+            </div>
+  
+            <div class="swiper-slide slide">
+              <div class="image">
+                <img src="images/course-1-3.png" alt="" />
+                <!--<img src="images/course-1-2.png" alt="" />-->
+                <h3>Coaching Personal</h3>
+              </div>
+              <div class="content">
+                <h3>Coaching Personal</h3>
+                <p>
+                  Proporcionar sesiones individuales de coaching que ayuden a las personas a identificar metas, superar obstáculos, desarrollar habilidades de autogestión y alcanzar su máximo potencial tanto en el ámbito personal como profesional.
+                </p>
+                <a href="servicio2.html" class="btn">Leer +</a>
+              </div>
+            </div>
+  
+          <!--
+            <div class="swiper-slide slide">
+              <div class="image">
+                <img src="images/course-1-3.png" alt="" />
+                <h3>curso 3</h3>
+              </div>
+              <div class="content">
+                <h3>curso 3</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Laborum, ratione?
+                </p>
+                <a href="#" class="btn">Leer +</a>
+              </div>
+            </div>
+  
+            <div class="swiper-slide slide">
+              <div class="image">
+                <img src="images/course-1-4.png" alt="" />
+                <h3>curso 4</h3>
+              </div>
+              <div class="content">
+                <h3>curso 4</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Laborum, ratione?
+                </p>
+                <a href="#" class="btn">Leer +</a>
+              </div>
+            </div>
+  
+            <div class="swiper-slide slide">
+              <div class="image">
+                <img src="images/course-1-5.png" alt="" />
+                <h3>curso 5</h3>
+              </div>
+              <div class="content">
+                <h3>curso 5</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Laborum, ratione?
+                </p>
+                <a href="#" class="btn">Leer +</a>
+              </div>
+            </div>
+  
+            <div class="swiper-slide slide">
+              <div class="image">
+                <img src="images/course-1-6.png" alt="" />
+                <h3>curso 6</h3>
+              </div>
+              <div class="content">
+                <h3>curso 6</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Laborum, ratione?
+                </p>
+                <a href="#" class="btn">Leer +</a>
+              </div>
+            </div>
+            -->
+          </div>
+        </div>
+      </section>
+  
+      <!-- home courses slider section ends -->
+  
+
+    <!-- students reviews section starts  -->
+
+    <section class="reviews">
+
+        <h1 class="heading"> nuestros estudiantes </h1>
+    
+        <div class="swiper reviews-slider">
+    
+        <div class="swiper-wrapper">
+    
+            <div class="swiper-slide slide">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim animi atque numquam harum libero nemo, eligendi laboriosam beatae quo iure corrupti, neque rerum possimus non nisi quia! Cumque, tempora sit.</p>
+                <img src="images/pic-1.png" alt="">
+                <h3>john deo</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+    
+            <div class="swiper-slide slide">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim animi atque numquam harum libero nemo, eligendi laboriosam beatae quo iure corrupti, neque rerum possimus non nisi quia! Cumque, tempora sit.</p>
+                <img src="images/pic-2.png" alt="">
+                <h3>john deo</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+    
+            <div class="swiper-slide slide">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim animi atque numquam harum libero nemo, eligendi laboriosam beatae quo iure corrupti, neque rerum possimus non nisi quia! Cumque, tempora sit.</p>
+                <img src="images/pic-3.png" alt="">
+                <h3>john deo</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+    
+            <div class="swiper-slide slide">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim animi atque numquam harum libero nemo, eligendi laboriosam beatae quo iure corrupti, neque rerum possimus non nisi quia! Cumque, tempora sit.</p>
+                <img src="images/pic-4.png" alt="">
+                <h3>john deo</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+    
+            <div class="swiper-slide slide">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim animi atque numquam harum libero nemo, eligendi laboriosam beatae quo iure corrupti, neque rerum possimus non nisi quia! Cumque, tempora sit.</p>
+                <img src="images/pic-5.png" alt="">
+                <h3>john deo</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+    
+            <div class="swiper-slide slide">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim animi atque numquam harum libero nemo, eligendi laboriosam beatae quo iure corrupti, neque rerum possimus non nisi quia! Cumque, tempora sit.</p>
+                <img src="images/pic-6.png" alt="">
+                <h3>john deo</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+    
+        </div>
+    
+        </div>
+    
+    </section>    
+    <!-- end students reviews section starts  -->
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+            <a href="#" class="logo"> <img src="images/agora_logo.png" alt="" width="20%"> <span style="color: rgb(75, 134, 98); font-size: 18px;">Portal</span> <span style="color:cadetblue; font-size: 18px;">Ágora</span> </a>
+          <p>
+            Portal Ágora es una organización que busca potenciar el desarrollo de las competencias emocionales como elemento esencial del desarrollo humano, con objeto de capacitarle para la vida y con la finalidad de aumentar el bienestar personal y social.
+          </p>
+          <div class="share">
+            <a href="https://web.facebook.com/profile.php?id=100080758655131&_rdc=1&_rdr" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="https://www.instagram.com/portalagora.cl/" class="fab fa-instagram"></a>
+            <a href="https://www.youtube.com/channel/UCBOvq1eJU06xTaQoqzjNrBQ" class="fab fa-youtube"></a>
+          </div>
+        </div>
+
+        <div class="box">
+          <h3>Nuestro Sitio</h3>
+          <a href="index.html" class="link">Inicio</a>
+          <a href="#" class="link">Acerca de nosotros</a>
+          <a href="#cursos" class="link">Servicios</a>
+          <a href="contacto.html" class="link">Contacto</a>
+        </div>
+
+        <div class="box">
+          <h3>links Útiles</h3>
+          <a href="#" class="link">help center</a>
+          <a href="#" class="link">ask questions</a>
+          <a href="#" class="link">send feedback</a>
+          <a href="#" class="link">private policy</a>
+          <a href="#" class="link">terms of use</a>
+        </div>
+
+        <div class="box">
+          <h3>Contacto</h3>
+          <p style="font-size: 18px;">Marcela Cuadra Toro</p>
+          <p style="font-size: 18px;">marcelacuadratoro@gmail.com</p>
+          <p style="font-size: 18px;">+56 9 8369 8238</p>
+          <!-- 
+          <form action="">
+            <input
+              type="email"
+              name=""
+              placeholder="enter your email"
+              id=""
+              class="email"
+            />
+            <input type="submit" value="subscribe" class="btn" />
+          </form>
+          -->
+        </div>
+      </div>
+
+      <div class="credit">
+        creado por <span>House Software JR.</span> | all rights reserved!
+      </div>
+    </section>
+
+    <!-- footer section ends -->
+
+    <!-- swiper js link  -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
